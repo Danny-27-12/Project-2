@@ -3,3 +3,16 @@ body{
     margin: 0;
 
 }
+
+#box-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 480px;
+    height: 480px;
+}
+
+/* using wrap to make the grid shape and using width and height to get a 16x16 shaped square */
+
+

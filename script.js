@@ -1,15 +1,20 @@
 
-const newElement = document.createElement('div');
-
-newElement.style.width = '200px';
-newElement.style.height = '200px';
-newElement.style.backgroundColor = 'red';
-
 let container = document.getElementById('box-container');
+    
+for (i=0; i <= 255; i++){
+    const newElement = document.createElement('div');
+    newElement.style.width = '20px';
+    newElement.style.height = '20px';
+    newElement.style.backgroundColor = 'pink';
     container.appendChild(newElement);
-x
+}
+    
 // declaring a new div with .createElement
 // receiving an ID and placing that div into the parent div (newElement) with .appendChild
+// adding the for loop allows 16 divs to be created.
+
+
+
 
 
 
