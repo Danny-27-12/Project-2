@@ -7,7 +7,7 @@ newElement.style.backgroundColor = 'red';
 
 let container = document.getElementById('box-container');
     container.appendChild(newElement);
-
+x
 // declaring a new div with .createElement
 // receiving an ID and placing that div into the parent div (newElement) with .appendChild
 
