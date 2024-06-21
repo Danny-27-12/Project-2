@@ -6,13 +6,22 @@ body{
 
 #box-container{
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
-    width: 480px;
-    height: 480px;
+    width: 630px;
+    height: 630px;
+    margin: auto;
+    margin-top: 200px;
 }
 
 /* using wrap to make the grid shape and using width and height to get a 16x16 shaped square */
+.hoverBox{
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+}
 
-
+.hoverBox:hover{
+    background-color: tomato;
+}
