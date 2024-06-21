@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: hsl(196, 65%, 27%);
 
 }
 
@@ -19,9 +20,9 @@ body{
     border-radius: 3px;
     width: 30px;
     height: 30px;
-    background-color: pink;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .hoverBox:hover{
-    background-color: tomato;
+    background-color: hsl(196, 68%, 53%);
 }
