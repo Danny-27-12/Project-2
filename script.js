@@ -28,9 +28,10 @@ function getHoverPattern() {
             box.addEventListener('mouseover', (event) => {
                 event.target.style.backgroundColor = 'hsl(196, 64%, 43%)';
 
-                    setTimeout( () => {
-                        event.target.style.backgroundColor = 'hsl(196, 65%, 27%)';
-                    }, 2000);
+                   let timeId = setTimeout( () => {
+                        event.target.style.backgroundColor = 'hsl(170, 64%, 43%)';
+                    }, 500);
+                            
             })
         })
 };
