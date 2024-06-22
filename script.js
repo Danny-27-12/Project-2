@@ -19,20 +19,29 @@ makeGrid();
 //setTimeout()
 //clearTimeout()
 
-function getHover () {
-    const elements = document.querySelectorAll('.hoverBox');
 
-elements.forEach(element => {
-    element.addEventListener('mouseover', (event) => {
-        event.target.style.backgroundColor = 'red';
+function getHoverPattern() {
 
-        setTimeout(() => {
-            event.target.style.backgroundColor = 'rgba(255, 255, 255, 0.85)';
-        }, 1000);
+    let boxes = document.querySelectorAll('.hoverBox');
 
-})})};
+        boxes.forEach((box) => {
+            box.addEventListener('mouseover', (event) => {
+                event.target.style.backgroundColor = 'hsl(196, 64%, 43%)';
 
-getHover();
+                    setTimeout( () => {
+                        event.target.style.backgroundColor = 'hsl(196, 65%, 27%)';
+                    }, 2000);
+            })
+        })
+};
+
+getHoverPattern();
+
+    
+
+
+
+
 
 //1. querySelectorAll selector that receives the class name.
 //2. we attach an eventListener to that variable with forEach

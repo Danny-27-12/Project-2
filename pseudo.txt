@@ -1,0 +1,6 @@
+Hovering pixelated effect :
+
+1. mouseover event when I am hovering over the square.
+2. change color when hovering
+3. when I exit the square, there needs to be a timer (half a second) before the color fades.
+4. transition from a certain color then transitions into white.
