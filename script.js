@@ -15,24 +15,27 @@ makeGrid();
 // receiving an ID and placing that div into the parent div (newElement) with .appendChild
 // adding the for loop allows 16 divs to be created.
 
-// let hover = document.getElementById('box-container div');
 
-// document.addEventListener('mouseover', event => {
-//     event.target.style.backgroundColor = 'tomato';
-    
-// });
+//setTimeout()
+//clearTimeout()
 
+function getHover () {
+    const elements = document.querySelectorAll('.hoverBox');
 
+elements.forEach(element => {
+    element.addEventListener('mouseover', (event) => {
+        event.target.style.backgroundColor = 'red';
 
+        setTimeout(() => {
+            event.target.style.backgroundColor = 'rgba(255, 255, 255, 0.85)';
+        }, 1000);
 
+})})};
 
+getHover();
 
-
-
-
-
-
-
+//1. querySelectorAll selector that receives the class name.
+//2. we attach an eventListener to that variable with forEach
 
 
 

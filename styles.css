@@ -16,13 +16,15 @@ body{
 }
 
 /* using wrap to make the grid shape and using width and height to get a 16x16 shaped square */
+
 .hoverBox{
-    border-radius: 3px;
     width: 30px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.85);
 }
 
-.hoverBox:hover{
+/* .hoverBox:hover{
     background-color: hsl(196, 68%, 53%);
-}
+} */
+
+/* added the pseudo selector to change the color when hovering over */
