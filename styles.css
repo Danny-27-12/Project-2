@@ -40,6 +40,7 @@ button{
     color: rgba(255, 255, 255, 0.85);
     border: rgba(255, 255, 255, 0.85) solid 4px;
     background-color: hsl(196, 65%, 27%);
+    cursor: pointer;
 }
 
 #box-container{
