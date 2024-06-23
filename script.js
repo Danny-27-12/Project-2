@@ -50,7 +50,6 @@ function getRandomColor() {
 
 getRandomColor();
 
-console.log(getRandomColor());
 
 
 
