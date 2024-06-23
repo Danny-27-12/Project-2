@@ -11,12 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 h1{
     color: rgba(255, 255, 255, 0.85);
     font-size: 5em;
     margin-bottom: -10px;
+    margin-left: 13px;
 }
 
 h3{
@@ -56,10 +58,6 @@ button{
     width: 30px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
 }
 
-/* .hoverBox:hover{
-    background-color: hsl(196, 68%, 53%);
-} */
-
-/* added the pseudo selector to change the color when hovering over */
