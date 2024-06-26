@@ -52,7 +52,9 @@ getRandomColor();
 
 
 function getButtonClick(){
-    window.prompt('What grid size would you like?');
+   let gridSize = window.prompt('What grid size would you like?');
+   return gridSize;
+   console.log(getButtonClick());
 };
 
 

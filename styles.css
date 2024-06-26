@@ -50,7 +50,7 @@ button{
     width: 630px;
     height: 630px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 79px;
 }
 
 /* using wrap to make the grid shape and using width and height to get a 16x16 shaped square */
@@ -59,6 +59,6 @@ button{
     width: 30px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
